@@ -39,7 +39,6 @@ class CNFFormula {
 
     explicit CNFFormula(const char* filename) : CNFFormula() {
         readDimacsFromFile(filename);
-        normalizeVariableNames();
     }
 
     ~CNFFormula() {
